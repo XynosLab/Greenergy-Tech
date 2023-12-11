@@ -606,7 +606,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Featured Services Section
 --------------------------------*/
 #featured-services {
-  background-image: linear-gradient(0deg, #9ffdbb 0%, #56e298 50%, #9ffdbb 100%);
+  background-image: linear-gradient(0deg, #ffffff 0%, #ffffff 50%, #ffffff 100%);
 }
 
 #featured-services .box {
@@ -614,7 +614,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #featured-services .box-bg {
-  background-image: linear-gradient(0deg, #9ffdbb 0%, #56e298 50%, #9ffdbb 100%);
+  background-image: linear-gradient(0deg, #ffffff 0%, #ffffff 50%, #ffffff 100%);
 }
 
 #featured-services i {
@@ -635,7 +635,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #featured-services h4 a:hover {
-  color: #ffffff;
+  color: #18d26e;
 }
 
 #featured-services p {
@@ -814,12 +814,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #18d26e;
+  background: #fff;
+  color: #18d26e;
 }
 
 #call-to-action .cta-btn:hover {
   background: #18d26e;
+  color: #ffffff;
   border: 2px solid #18d26e;
 }
 
