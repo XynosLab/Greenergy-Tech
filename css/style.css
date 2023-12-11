@@ -263,6 +263,27 @@ h1, h2, h3, h4, h5, h6 {
   color: #18d26e;
 }
 
+
+#intro .btn-get-call {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  background: #fff;
+  color: #18d26e;
+}
+
+#intro .btn-get-call:hover {
+
+  color: #fff;
+  background: #18d26e;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
