@@ -512,6 +512,32 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 /* Sections Header
 --------------------------------*/
+
+/* WhatsApp Button
+--------------------------------*/
+.float{
+	position: fixed;
+	width:60px;
+	height:60px;
+	bottom:70px;
+	right:15px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+  background-color: #fff;
+  color: #25d366;}
+
+.my-float{
+	margin-top:16px;
+}
+
+
 .section-header h3 {
   font-size: 32px;
   color: #111;
@@ -553,13 +579,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #f7f7f7;
+  background: #ffffff;
 }
 
 /* Featured Services Section
 --------------------------------*/
 #featured-services {
-  background: #000;
+  background-image: linear-gradient(0deg, #9ffdbb 0%, #56e298 50%, #9ffdbb 100%);
 }
 
 #featured-services .box {
@@ -567,11 +593,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #featured-services .box-bg {
-  background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
+  background-image: linear-gradient(0deg, #9ffdbb 0%, #56e298 50%, #9ffdbb 100%);
 }
 
 #featured-services i {
-  color: #18d26e;
+  color: #000000;
   font-size: 48px;
   display: inline-block;
   line-height: 1;
@@ -584,17 +610,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #featured-services h4 a {
-  color: #fff;
+  color: #000000;
 }
 
 #featured-services h4 a:hover {
-  color: #18d26e;
+  color: #ffffff;
 }
 
 #featured-services p {
   font-size: 14px;
   line-height: 24px;
-  color: #fff;
+  color: #000000;
   margin-bottom: 0;
 }
 
