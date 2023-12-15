@@ -108,6 +108,7 @@ section {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -421,6 +422,36 @@ section {
   }
 }
 
+
+
+/*--------------------------------------------------------------
+# Call Button
+--------------------------------------------------------------*/
+
+
+.btn-get-call {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  background: #fff;
+  border: 2px solid #18d26e;
+  color: #18d26e;
+}
+
+.btn-get-call:hover {
+
+  color: #fff;
+  background: #18d26e;
+}
+
+
+
 /*--------------------------------------------------------------
 # Mobile Navigation
 --------------------------------------------------------------*/
@@ -691,6 +722,12 @@ section {
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Constructions Section
@@ -1212,6 +1249,12 @@ section {
 @media (min-width: 991px) {
   .about .our-story {
     padding-right: 35%;
+  }
+}
+
+@media (min-width: 991px) {
+  .about .our-other {
+    padding-right: 5%;
   }
 }
 
