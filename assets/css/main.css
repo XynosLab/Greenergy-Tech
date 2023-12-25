@@ -1173,6 +1173,11 @@ section {
 /*--------------------------------------------------------------
 # Alt Services Section
 --------------------------------------------------------------*/
+.alt-services {
+  /*padding: 40px;*/
+  background-color: #f5f6f7;
+  }
+
 .alt-services .img-bg {
   background-size: cover;
   background-position: center center;
@@ -1197,6 +1202,8 @@ section {
   background: var(--color-primary);
   left: 0;
   bottom: 0;
+  padding: 40px;
+  background-color: #f5f6f7;
 }
 
 .alt-services .icon-box {
@@ -1224,10 +1231,25 @@ section {
   color: #fff;
 }
 
-.alt-services .icon-box h4 {
+.alt-services .icon-box h5 {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 18px;
+}
+
+.alt-services .icon-box h5 a {
+  color: #000;
+  transition: 0.3s;
+}
+
+.alt-services .icon-box h5 a:hover {
+  color: var(--color-primary);
+}
+
+.alt-services .icon-box h4 {
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 15px;
 }
 
 .alt-services .icon-box h4 a {
